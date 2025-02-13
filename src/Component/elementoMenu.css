@@ -1,0 +1,10 @@
+.enlaces1 a {
+    text-decoration: none;
+    color: #01491b;
+    font-size: 20px;
+}
+
+.enlaces1 li {
+    list-style: none;
+    margin: 0 15px;
+}

@@ -1,5 +1,6 @@
 import "./Body.css";
 import Imagen from "./Imagen.jsx";
+import ElementoMenu from "./ElementoMenu.jsx";
 import { useState } from "react";
 
 const Body = () => {
@@ -15,14 +16,13 @@ const Body = () => {
                 <div className="enlaces1">
                     <img src="../../public/logo.jpg" className="logo_imagen"/>
                     <ul>
-                        <li><a href="#">Nuestra Historia</a></li>
-                        <li><a href="#">Nuestras Ceverzas</a><span
-                            className="material-symbols-outlined">arrow_drop_down</span></li>
-                        <li><a href="#">Galeria</a></li>
-                        <li><a href="#">Tienda Virtual</a></li>
-                        <li><a href="#">Visitas</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <ElementoMenu enlace="#" texto="Nuestra Historia" />
+                        <ElementoMenu enlace="#" texto="Nuestras Cervezas" />
+                        <ElementoMenu enlace="#" texto="Galeria" />
+                        <ElementoMenu enlace="#" texto="Tienda virtual" />
+                        <ElementoMenu enlace="#" texto="Visitas" />
+                        <ElementoMenu enlace="#" texto="Contacto" />
+                        <ElementoMenu enlace="#" texto="Blog" />
                     </ul>
                 </div>
                 <div className="enlaces_contacto">

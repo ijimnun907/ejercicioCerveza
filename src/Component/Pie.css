@@ -1,0 +1,63 @@
+footer {
+    background-color: #01491b;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+}
+
+footer img {
+    max-width: 100px;
+    margin-right: 5px;
+}
+
+footer .Noticias_Recientes_Datos,
+footer .datos_contacto {
+    width: 30%;
+}
+
+footer h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+footer .Noticias_Recientes_Datos p:first-child {
+    font-weight: bold;
+}
+
+footer .datos_contacto p {
+    line-height: 1.6;
+}
+
+footer .datos_contacto a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    font-size: 14px;
+}
+
+footer::after {
+    content: "© 2023 Cerveza Gredos. Todos los derechos reservados.";
+    font-size: 12px;
+    color: #cccccc;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}

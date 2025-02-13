@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.enlaces1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.enlaces1 ul {
+    display: flex;
+    margin-top: 4%;
+    padding: 0;
+}
+
+.enlaces1 a {
+    text-decoration: none;
+    color: #01491b;
+    font-size: 20px;
+}
+
+.enlaces1 li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.enlaces_contacto {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    overflow: hidden;
+}
+
+.enlaces_contacto a {
+    color: #004d00;
+    text-decoration: none;
+}
+
+.enlaces_contacto i {
+    margin-right: 5px;
+}
+
+.logo_imagen{
+    max-height: 300px;
+    margin-right: 20px;
+}

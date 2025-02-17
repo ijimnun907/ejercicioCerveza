@@ -1,0 +1,11 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 40%;
+}
